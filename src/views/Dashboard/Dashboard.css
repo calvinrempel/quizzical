@@ -1,0 +1,7 @@
+.page-title, .md-title, .md-card-header {
+    text-align: left;
+}
+
+a.view-all {
+    opacity: 1;
+}

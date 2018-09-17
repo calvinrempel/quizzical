@@ -1,0 +1,11 @@
+import {Doughnut, mixins} from 'vue-chartjs';
+const {reactiveProp} = mixins;
+
+export default {
+    name: "Quizzical-PieChart",
+    extends: Doughnut,
+    mixins: [reactiveProp],
+    mounted() {
+        this.renderChart(this.chartData, this.options);
+    }
+}

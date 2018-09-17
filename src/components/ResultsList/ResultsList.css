@@ -1,0 +1,13 @@
+.results-list {
+    padding: 0.5em;
+}
+
+.percent {
+    display: inline-block;
+    width: 64px;
+    font-size: 1.25em;
+}
+
+.md-list-item {
+    border-bottom: 1px solid #ddd;
+}

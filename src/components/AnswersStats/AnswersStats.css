@@ -1,0 +1,16 @@
+.numeric {
+    text-align: left;
+}
+
+.percent {
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+.pass {
+    color: green;
+}
+
+.fail {
+    color: red;
+}
